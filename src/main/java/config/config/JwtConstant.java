@@ -1,6 +1,8 @@
-package com.cutm.marketconnect.config;
+package com.zosh.config;
 
 public class JwtConstant {
-    public static final String SECRETE_KEY="sjdngfdbwnaukflasnjkfnBSYGDvsjbjsnfhbsjf";
-    public static final String JWT_HEADER="Authorisation";
+	
+	public static final String SECRET_KEY="wpembytrwcvnryxksdbqwjebruyGHyudqgwveytrtrCSnwifoesarjbwe";
+	public static final String JWT_HEADER="Authorization";
+
 }
