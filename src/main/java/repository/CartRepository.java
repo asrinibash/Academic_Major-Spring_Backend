@@ -1,10 +1,10 @@
-package com.zosh.repository;
+package com.ShopEaze.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.zosh.modal.Cart;
+import com.ShopEaze.modal.Cart;
 
 public interface CartRepository extends JpaRepository<Cart,Long>{
 
